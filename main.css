@@ -1,5 +1,28 @@
-.shared {
+.shared, .circle, .square, .triangle, .rectangle {
   float: left;
   margin: 0px 100px 100px 0px; }
+
+.circle {
+  background-color: purple;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px; }
+
+.square {
+  background-color: red;
+  height: 100px;
+  width: 100px; }
+
+.triangle {
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid orange;
+  width: 0; }
+
+.rectangle {
+  background-color: blue;
+  height: 150px;
+  width: 100px; }
 
 /*# sourceMappingURL=main.css.map */
